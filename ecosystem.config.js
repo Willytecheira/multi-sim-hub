@@ -1,7 +1,7 @@
 module.exports = {
   apps: [{
     name: 'whatsapp-api',
-    script: 'server.js',
+    script: 'server.cjs',
     instances: 1,
     exec_mode: 'fork',
     watch: false,
